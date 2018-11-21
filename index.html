@@ -2,14 +2,91 @@
 <html>
 
 	<head>
-		<meta charset="UTF-8">
-		<title></title>
+		<meta charset="utf-8">
+		<title>晴天</title>
+		<link type="text/css" rel="stylesheet" href="css/carousel.css">
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/carousel.js"></script>
 	</head>
-	<body>
-		<div id="">
-		<h1>故事的的黄花</h1>
-		<h1>从出生那年就飘着</h1>
-		<a href="new_file1.html">aaa</a>
-		</div>	
+	<!--开始的开始是你-->
+	<style type="text/css">
+		.bottom {
+			margin-top: 55%;
+		}
+		
+		.mp {
+			display: block;
+			width: 100%;
+		}
+	</style>
+
+	<body style="padding:50px;" background="img/timg.jpeg">
+		<div style="width: 1366px;height: 600px;">
+			<div class="J_Poster poster-main" data-setting='{"width":1000,"height":500,"posterWidth":640,
+"posterHeight":500,
+"scale":0.8,
+"autoPlay":true,
+"delay":2000,
+"speed":300
+}'>
+				<div class="poster-btn poster-prev-btn"></div>
+				<ul class="poster-list">
+					<li class="poster-item">
+						<a href="#"><img src="img/timg-1.jpg" width="100%" height="100%"></a>
+					</li>
+					<li class="poster-item">
+						<a href="#"><img src="img/timg-10.jpg" width="100%" height="100%"></a>
+					</li>
+					<li class="poster-item">
+						<a href="#"><img src="img/timg-12.jpg" width="100%" height="100%"></a>
+					</li>
+					<li class="poster-item">
+						<a href="#"><img src="img/timg-13.jpg" width="100%" height="100%"></a>
+					</li>
+					<li class="poster-item">
+						<a href="#"><img src="img/timg-2.jpg" width="100%" height="100%"></a>
+					</li>
+					<li class="poster-item">
+						<a href="#"><img src="img/timg-7.jpg" width="100%" height="100%"></a>
+					</li>
+					<li class="poster-item">
+						<a href="#"><img src="img/timg-8.jpg" width="100%" height="100%"></a>
+					</li>
+					<li class="poster-item">
+						<a href="#"><img src="img/timg-9.jpg" width="100%" height="100%"></a>
+					</li>
+					<li class="poster-item">
+						<a href="#"><img src="img/timg-5.jpg" width="100%" height="100%"></a>
+					</li>
+				</ul>
+				<div class="poster-btn poster-next-btn"></div>
+			</div>
+			<p style="height:50px;"></p>
+			<div class="J_Poster poster-main" data-setting='{
+                                 "width":800,
+                                                                                    "height":500,
+                                                                                    "posterWidth":640,
+                                                                                    "posterHeight":500,
+                                                                                    "scale":0.8,
+                                                                                    "autoPlay":true,
+                    "delay":5000,
+                                                       "speed":300,
+                                     "vericalAlign":"top"
+					}'>
+				<div class="poster-btn poster-prev-btn"></div>
+				<div class="poster-btn poster-next-btn"></div>
+			</div>
+			<div class="bottom">
+				<audio autoplay="autoplay" controls="controls" loop="loop" preload="auto" src="img/周杰伦 - 晴天.mp3" class="mp"></audio>
+			</div>
+		</div>
+		<script>
+			$(function() {
+				Carousel.init($(".J_Poster"));
+			});
+			
+		</script>
+
 	</body>
+<!--最后的最后是爱你-->
 </html>
