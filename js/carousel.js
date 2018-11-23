@@ -242,5 +242,4 @@
 		});
 	};
 	window["Carousel"] = Carousel;
-	console.log("展傻傻，惊不惊喜！");
 })(jQuery);
